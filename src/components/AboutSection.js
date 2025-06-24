@@ -18,25 +18,33 @@ import rd6 from '../assets/images/rd6.png';
 import crmslogo from '../assets/images/crmslogo.svg';
 import crmsIcon from '../assets/images/crms_icon.png';
 import ip from '../assets/images/ipinfo.png';
+import oppz from '../assets/images/oppz.png';
 
 const AboutSection = () => {
     const webProjects = [
+        // {
+        //     id: 1,
+        //     title: "Oppz AI",
+        //     description: "AI Automation Platform for no code automations",
+        //     images: [oppz],
+        //     tech: ["Python", "FastAPI", "React", "Postgress"]
+        // },
         {
-          id: 1,
+          id: 2,
           title: "Campaign Management System",
           description: "A CRM for user campaign management. CRMS can be used for businesses to run their online campaings using one of the most Professional tools like email and WhatsApp.",
           images: [crmslogo, crmsIcon , crmsIcon],
           tech: ["Go", "TypeScript", "PostgreSQL", "WhatsApp Business API"]
         },
         {
-            id: 2,
+            id: 3,
             title: "IPinfo.io",
             description: "IP address API: geolocation, VPN detection, company data and more. Serving over 40 billion API requests a month for 500,000+ businesses and developers.",
             images: [ip, rd1, rd2, rd3, rd4, rd5, rd6],
             tech: ["Google BQ", "Google Cloud Plateform", "Python", "Shell", "JavaScript", "Retool"]
         },
         {
-            id: 3,
+            id: 4,
             title: "DeepCrowd",
             description: "An application that leverages computer vision and deep learning techniques to enable efficient crowd behavioral analysis, including anomaly detection and crowd density estimation.",
             images: [dc, model, de1, de2, uniformity],

@@ -10,6 +10,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import mslm from '../assets/images/mslm.png';
 import astech from '../assets/images/astech.png';
+import oppz from '../assets/images/oppz.png';
 
 const theme = createTheme({
   components: {
@@ -34,8 +35,92 @@ const ExperienceSection = () => (
                 Download Resume
             </a>
         </div>
+        <div class="card shadow border-0 rounded-4 mb-5">
+            <div class="card-body p-5">
+                <div class="row align-items-center gx-5">
+                    <div className="col text-center text-lg-start mb-4 mb-lg-0">
+                        <a href="https://www.oppz.ai/" style={{ textDecoration: 'none' }}>
+                            <div className="bg-light p-4 rounded-4 d-flex align-items-center">
+                                <img 
+                                src={oppz} 
+                                alt="Mslm Logo" 
+                                style={{ width: '60px', height: '60px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px' }} 
+                                />
+                                <div>
+                                    <div className="text-primary fw-bolder mb-2">2023 - 2024</div>
+                                    <div className="mb-2">
+                                        <div className="small fw-bolder">Full Stack Engineer</div>
+                                        <div className="small text-muted">Oppz</div>
+                                    </div>
+                                    <div className="fst-italic">
+                                        <div className="small text-muted">Lahore Pakistan</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-8">
+                        <div>
+                            <ThemeProvider theme={theme}>
+                                <Timeline>
+                                    <TimelineItem>
+                                        <TimelineSeparator>
+                                        <TimelineDot />
+                                        <TimelineConnector />
+                                        </TimelineSeparator>
+                                        <TimelineContent>
+                                        Contributed to the development of an AI-powered no-code automation platform enabling users to design automations
+                                        using drag-and-drop nodes and dynamic branching logic.
+                                        </TimelineContent>
+                                    </TimelineItem>
+                                    <TimelineItem>
+                                        <TimelineSeparator>
+                                        <TimelineDot />
+                                        <TimelineConnector />
+                                        </TimelineSeparator>
+                                        <TimelineContent>
+                                        Designed and implemented AI nodes (e.g., text summarization, text extraction, sentiment analysis) leveraging LangChain
+                                        and LLMs for generative AI-powered automations.
+                                        </TimelineContent>
+                                    </TimelineItem>
+                                    <TimelineItem>
+                                        <TimelineSeparator>
+                                        <TimelineDot />
+                                        <TimelineConnector />
+                                        </TimelineSeparator>
+                                        <TimelineContent>
+                                        Developed and maintained backend services using FastAPI, integrating third-party platforms (e.g., Gmail, Discord,
+                                            Reddit) through REST APIs, OAuth2, and webhooks.
+                                        </TimelineContent>
+                                    </TimelineItem>
+                                    <TimelineItem>
+                                        <TimelineSeparator>
+                                        <TimelineDot />
+                                        <TimelineConnector />
+                                        </TimelineSeparator>
+                                        <TimelineContent>
+                                        Built reusable frameworks for no-code workflow orchestration, including custom triggers (cron, interval, event-based) and
+                                        task queues using Celery.
+                                        </TimelineContent>
+                                    </TimelineItem>
+                                    <TimelineItem>
+                                        <TimelineSeparator>
+                                        <TimelineDot />
+                                        </TimelineSeparator>
+                                        <TimelineContent>
+                                        Performed dynamic application scans and security reviews to support Google CASA certification, enhancing platform
+                                        compliance and security posture.
+                                        </TimelineContent>
+                                    </TimelineItem>
+                                </Timeline>
+                            </ThemeProvider>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         {/* <!-- Experience Card 1--> */}
-    
         <div class="card shadow border-0 rounded-4 mb-5">
             <div class="card-body p-5">
                 <div class="row align-items-center gx-5">

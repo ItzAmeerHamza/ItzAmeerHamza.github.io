@@ -29,6 +29,7 @@ import ror from '../assets/images/ror.png';
 import sl from '../assets/images/selenium.png';
 import ss from '../assets/images/sqlserver.png';
 import code from '../assets/images/code.png';
+import wrentch from '../assets/images/code.gif';
 
 const SkillsSection = () => (
     <section>
@@ -52,7 +53,7 @@ const SkillsSection = () => (
                                     alt="Python Icon" 
                                     style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
                                 />
-                                <span>Software Development</span>
+                                <span>Software Development <img src={wrentch} style={{width: '50px', height: '30px'}}></img></span>
                             </div>
                         </div>
                         <div class="col">
@@ -62,7 +63,7 @@ const SkillsSection = () => (
                                     alt="Python Icon" 
                                     style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
                                 />
-                                <span>Web Engineering</span>
+                                <span>Web Engineering <img src={wrentch} style={{width: '50px', height: '30px'}}></img></span>
                             </div>
                         </div>
                         <div class="col mb-4 mb-md-0">
@@ -73,7 +74,7 @@ const SkillsSection = () => (
                                     style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
                                 />
                                 <span>
-                                    Data Analysis
+                                    Data Analysis <img src={wrentch} style={{width: '50px', height: '30px'}}></img>
                                 </span>
                             </div>
                         </div>
@@ -86,7 +87,7 @@ const SkillsSection = () => (
                                     alt="Python Icon" 
                                     style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
                                 />
-                                <span>ML Engineering</span>
+                                <span>ML Engineering <img src={wrentch} style={{width: '50px', height: '30px'}}></img></span>
                             </div>
                         </div>
                         <div class="col mb-4 mb-md-0">
@@ -96,7 +97,7 @@ const SkillsSection = () => (
                                     alt="Python Icon" 
                                     style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
                                 />
-                                <span>Data Engineering</span>
+                                <span>Data Engineering <img src={wrentch} style={{width: '50px', height: '30px'}}></img></span>
                             </div>
                         </div>
                         <div class="col">
@@ -106,7 +107,7 @@ const SkillsSection = () => (
                                     alt="Python Icon" 
                                     style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
                                 />
-                                User Interface Design
+                                User Interface Design <img src={wrentch} style={{width: '50px', height: '30px'}}></img>
                             </div>
                         </div>
                     </div>
